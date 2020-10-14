@@ -3,8 +3,8 @@ let firework1;
 let firework2;
 
 function preload(){
-firework1 = loadImage('https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/Groundfireworks-burning.jpg/800px-Groundfireworks-burning.jpg')
-firework2 = loadImage('https://en.wikipedia.org/wiki/Fireworks#/media/File:2013_Fireworks_on_Eiffel_Tower_49.jpg')
+firework1 = loadImage('https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/2013_Fireworks_on_Eiffel_Tower_49.jpg/1024px-2013_Fireworks_on_Eiffel_Tower_49.jpg')
+firework2 = loadImage('https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/Groundfireworks-burning.jpg/800px-Groundfireworks-burning.jpg')
 
 }
 
