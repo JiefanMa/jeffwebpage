@@ -12,7 +12,8 @@ function setup() {
  createCanvas(windwowWidth, windowHeight);
  tint(255,255,255,127)
  image(firework1,100,200,firework1.width/3,firework1.height/3)
-image(firework2,100,200,firework2.width/3,firework2.height/3)
+ tint(255,255,255,255)
+ image(firework2,100,200,firework2.width/3,firework2.height/3)
 }
 
 
