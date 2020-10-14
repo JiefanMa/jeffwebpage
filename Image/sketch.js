@@ -10,10 +10,10 @@ firework2 = loadImage('https://en.wikipedia.org/wiki/Fireworks#/media/File:2013_
 
 function setup() {
  createCanvas(windwowWidth, windowHeight);
- tint(255,255,255,127)
- image(firework1,100,200,firework1.width/3,firework1.height/3)
- tint(255,255,255,255)
- image(firework2,100,200,firework2.width/3,firework2.height/3)
+ tint(255,255,255,127);
+ image(firework1,100,200,firework1.width/2,firework1.height/2)
+ tint(255,255,255,255);
+ image(firework2,100,200,firework2.width/2,firework2.height/2)
 }
 
 
