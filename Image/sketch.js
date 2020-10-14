@@ -3,14 +3,14 @@ let firework1;
 let firework2;
 
 function preload(){
-firework1 = loadImage('https://cdn2.creativecirclemedia.com/crawfordsville/original/20200702-164537-new_firework.tif.jpg')
-firework2 = loadImage('https://gray-koln-prod.cdn.arcpublishing.com/resizer/HDkeCkKcXHLiBlhTME2c_38CFTo=/1200x675/smart/cloudfront-us-east-1.images.arcpublishing.com/gray/TELKJAXWINHLPJC5HJRN4ZGQLQ.jpg')
+firework1 = loadImage('https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/Groundfireworks-burning.jpg/800px-Groundfireworks-burning.jpg')
+firework2 = loadImage('https://en.wikipedia.org/wiki/Fireworks#/media/File:2013_Fireworks_on_Eiffel_Tower_49.jpg')
 
 }
 
 function setup() {
  createCanvas(windwowWidth, windowHeight);
- tint(255,0,255,)
+ tint(255,255,255,127)
  image(firework1,100,200,firework1.width/3,firework1.height/3)
 image(firework2,100,200,firework2.width/3,firework2.height/3)
 }
