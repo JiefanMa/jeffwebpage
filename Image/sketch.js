@@ -1,25 +1,21 @@
 
-let firework1;
-let firework2;
-
-function preload(){
-firework1 = loadImage('https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/2013_Fireworks_on_Eiffel_Tower_49.jpg/1024px-2013_Fireworks_on_Eiffel_Tower_49.jpg')
-firework2 = loadImage('https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/Groundfireworks-burning.jpg/800px-Groundfireworks-burning.jpg')
-
-}
+let img;
+let img2// 声明变量 'img'
 
 function setup() {
- createCanvas(windwowWidth, windowHeight);
- tint(255,255,255,127);
- image(firework1,100,200,firework1.width/2,firework1.height/2)
- tint(255,255,255,255);
- image(firework2,100,200,firework2.width/2,firework2.height/2)
+  createCanvas(windowWidth, windowHeight);
+  img = loadImage('https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/2013_Fireworks_on_Eiffel_Tower_49.jpg/1024px-2013_Fireworks_on_Eiffel_Tower_49.jpg');
+  img2 = loadImage('https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/Groundfireworks-burning.jpg/800px-Groundfireworks-burning.jpg')
+  // 加载图像
+
+
+
 }
 
-
-
-
 function draw() {
-
-
+  // 在坐标(0, 0)，显示原图大小的图像
+  image(img,0,0);
+  // 在坐标(0, 高度/2)，显示一半原图大小的图像
+  tint(255,0,200,120)
+  image(img2, 10, 50, img.width / 2, img.height / 2);
 }
