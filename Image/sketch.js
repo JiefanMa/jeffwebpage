@@ -17,5 +17,6 @@ function draw() {
   image(img,0,0);
   // 在坐标(0, 高度/2)，显示一半原图大小的图像
   tint(255,0,200,120)
+  
   image(img2, 10, 50, img.width / 2, img.height / 2);
 }
